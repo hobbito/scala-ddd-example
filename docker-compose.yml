@@ -3,7 +3,7 @@ version: '3'
 services:
   mysql:
     container_name: codelytv-cqrs_ddd_scala_example-mysql
-    image: mysql:8.0
+    image: mariadb:10.3
     restart: unless-stopped
     ports:
       - "3316:3306"
